@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tailwind v4: custom colours live in CSS (@theme), not tailwind.config.js */
+@theme {
+  --color-darknavy-900: #070b19;
+  --color-darknavy-800: #0c132c;
+  --color-darknavy-700: #141e42;
+  --color-darknavy-600: #1e2a5e;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0c132c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2a5e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
