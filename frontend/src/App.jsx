@@ -84,9 +84,9 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-200 to-blue-400 bg-clip-text text-transparent">
-                GastroScout AI
+                FindMyRestaurant
               </h1>
-              <p className="text-xs text-blue-300/70 font-medium">Live Google Maps Explorer & Exporter</p>
+              {/* <p className="text-xs text-blue-300/70 font-medium">Live Google Maps Explorer & Exporter</p> */}
             </div>
           </div>
           <div className="hidden sm:flex items-center space-x-2 text-xs bg-darknavy-700/60 border border-blue-900/50 px-3 py-1.5 rounded-full text-blue-200">
@@ -253,7 +253,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-blue-900/40 bg-darknavy-800/40 py-6 text-center text-xs text-slate-500">
-        <p>GastroScout AI &bull; Live Google Maps Explorer</p>
+        <p>FindMyRestaurant &bull; Live Google Maps Explorer</p>
       </footer>
     </div>
   );
