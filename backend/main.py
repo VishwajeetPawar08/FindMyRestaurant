@@ -24,7 +24,7 @@ ALLOWED_ORIGINS = [o.strip().rstrip("/") for o in os.getenv(
     "ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",") if o.strip()]
 
 # Protect your Google bill on a public site
-RATE_LIMIT_PER_HOUR = int(os.getenv("RATE_LIMIT_PER_HOUR", "20"))   # searches per IP per hour
+RATE_LIMIT_PER_HOUR = int(os.getenv("RATE_LIMIT_PER_HOUR", "35"))   # searches per IP per hour
 CACHE_TTL_SECONDS = int(os.getenv("CACHE_TTL_SECONDS", "3600"))     # repeat searches are free
 _hits: dict = {}
 _cache: dict = {}
