@@ -90,8 +90,8 @@ export default function App() {
             </div>
           </div>
           <div className="hidden sm:flex items-center space-x-2 text-xs bg-darknavy-700/60 border border-blue-900/50 px-3 py-1.5 rounded-full text-blue-200">
-            <Sparkles className="w-3.5 h-3.5 text-blue-400 animate-pulse" />
-            <span>Powered by Google Places API</span>
+            {/* <Sparkles className="w-3.5 h-3.5 text-blue-400 animate-pulse" /> */}
+            {/* <span>Powered by Google Places API</span> */}
           </div>
         </div>
       </header>
